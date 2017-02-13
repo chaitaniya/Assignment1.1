@@ -1,0 +1,52 @@
+Ans 1:
+Various sources of Big Data
+a-Sensor Data
+b-Media
+c-Data storage
+d-public web
+e-machine log data
+f-sensor data
+g-docs
+h-archives
+
+Ans 2:
+3V's of Big Data are:
+Variety:Data can be stored in multiple format. For example database, excel, csv, access or for the matter of the fact, 
+it can be stored in a simple text file. Sometimes the data is not even in the traditional format as we assume, 
+it may be in the form of video, SMS, pdf or something we might have not thought about it. 
+It is the need of the organization to arrange it and make it meaningful. It will be easy to do so if we have data in the same format, 
+however it is not the case most of the time. The real world have data in many different formats and that is the challenge 
+we need to overcome with the Big Data. 
+Velocity:
+The data growth and social media explosion have changed how we look at the data. There was a time when we used to believe that 
+data of yesterday is recent. The matter of the fact newspapers is still following that logic. However, news channels and radios
+have changed how fast we receive the news. Today, people reply on social media to update them with the latest happening. 
+On social media sometimes a few seconds old messages (a tweet, status updates etc.) is not something interests users. T
+hey often discard old messages and pay attention to recent updates. The data movement is now almost real time and the 
+update window has reduced to fractions of the seconds.
+Volume:
+We currently see the exponential growth in the data storage as the data is now more than text data. We can find data in the 
+format of videos, musics and large images on our social media channels. It is very common to have Terabytes and Petabytes 
+of the storage system for enterprises. As the database grows the applications and architecture built to support the data needs 
+to be reevaluated quite often. Sometimes the same data is re-evaluated with multiple angles and even though the original data 
+is the same the new found intelligence creates explosion of the data.
+
+Ans 3:
+Horizontal scaling means that you scale by adding more machines into your pool of resources whereas
+Vertical scaling means that you scale by adding more power (CPU, RAM) to an existing machine.
+
+Ans 4:
+Need:To manage bigdata which is enormous amount of data,one needs to run a particular job on multiple 
+systems to complete the job in a given time limit.It is better to use multiple processors instead of one 
+huge processor.The management of these multiple systems is done by Hadoop.In problems where variety of data
+is involved at high velocity one needs a platform like hadoop to solve problems.
+Working:
+Hadoop is an open-source framework that allows to store and process big data in a distributes environment
+across clusters of computers using simple programming models.
+Hadoop is designed to run on a large number of machines that don’t share any memory or disks. 
+That means you can buy a whole bunch of commodity servers, slap them in a rack, and run the Hadoop software on each one. 
+When you want to load all of your organization’s data into Hadoop, 
+what the software does is bust that data into pieces that it then spreads across your different servers. 
+There’s no one place where you go to talk to all of your data; Hadoop keeps track of where the data resides. 
+And because there are multiple copy stores, data stored on a server that goes offline or dies can be automatically replicated from 
+a known good copy.
